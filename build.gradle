@@ -1,0 +1,38 @@
+plugins {
+    id 'java'
+
+    id 'idea'
+}
+
+
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+
+
+
+
+dependencies {
+
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: '2.2.8.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.3.0.RELEASE'
+    compileOnly  group: 'org.projectlombok', name: 'lombok', version: '1.18.12'
+    //compile group: 'io.jsonwebtoken', name: 'jjwt-api', version: '0.11.0'
+
+    compile 'io.jsonwebtoken:jjwt-api:0.11.2'
+    runtime 'io.jsonwebtoken:jjwt-impl:0.11.2',
+            // Uncomment the next line if you want to use RSASSA-PSS (PS256, PS384, PS512) algorithms:
+            //'org.bouncycastle:bcprov-jdk15on:1.60',
+            'io.jsonwebtoken:jjwt-jackson:0.11.2' // or 'io.jsonwebtoken:jjwt-gson:0.11.2' for gson
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+
+
+
+}

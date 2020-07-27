@@ -1,0 +1,4 @@
+jwt:
+  secret: 4pE8z3PBoHjnV1AhvGk+e8h2p+ShZpOnpr8cwHmMh1w=4pE8z3PBoHjnV1AhvGk+e8h2p+ShZpOnpr8cwHmMh1w=
+server:
+   port: 8080

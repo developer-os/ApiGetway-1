@@ -1,4 +1,4 @@
-###### Projeto ApiGetway 
+## Projeto ApiGetway 
 Este projeto tem como objetivo a criação de um APIGetway para fins de estudo. O Getway tem a função de orquestrar chamadas ao back-end.
 Api tera o JWT para autenticação.
 

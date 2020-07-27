@@ -15,7 +15,7 @@ Api tera o JWT para autenticação.
 
 |   Build                 |  Versão |  Funcionalidade                  |  Obs                                             |
 |-----------------------------|---------|---------------------------|-----------------------------------------------------------------|
-| Piloto             |  0.1   |Add JWT | Commit Inicial com JWT. Usaruios para testes: User: master Pass: master                                             |
+| Piloto             |  0.1   |Add JWT | Commit Inicial com JWT. Usuarios para testes: User: master Pass: master                                             |
 
 
 
